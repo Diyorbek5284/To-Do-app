@@ -1,0 +1,48 @@
+.liItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+  margin: 1rem 0;
+  background-color: antiquewhite;
+  box-shadow: 0 0 5px black;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.input {
+  margin: 5px;
+  padding: 0.5rem 2rem;
+}
+
+.btn {
+  padding: 3px 6px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.inputAdd {
+  background-color: white;
+  border-radius: 5px;
+  border-color: black;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.btn_b {
+  color: wheat;
+  background-color: blue;
+  padding: 5px;
+}
